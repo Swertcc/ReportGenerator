@@ -80,7 +80,7 @@ def delete_html_files_in_pdfs():
         for filename in os.listdir(target_directory):
             if filename.endswith('.html'):
                 os.remove(os.path.join(target_directory, filename))
-                print(f"已删除所有HTML文件")
+        print(f"已删除所有HTML文件")
     else:
         print(f"目录未创建")
 
